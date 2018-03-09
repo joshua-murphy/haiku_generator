@@ -23548,7 +23548,6 @@ metalloid=met~al~loid
 metallurgy=met~al~lur~gy
 metalware=met~al~ware
 metalwork=met~al~work
-metamorphosis=met~amor~phosis
 metabolic=met~a~bol~ic
 metacarpal=met~a~car~pal
 metacarpus=met~a~car~pus
