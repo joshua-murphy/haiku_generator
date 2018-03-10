@@ -28,10 +28,10 @@ class App extends Component {
       return (
         <div>
           <br/>
-          <Grid>
-            <Grid.Column width={6}/>
+          <Grid centered >
+            <Grid.Column computer={5} tablet={4} mobile={3}/>
             <br/>
-            <Grid.Column width={4} textAlign="center"> 
+            <Grid.Column computer={6} tablet={8} mobile={10} textAlign="center"> 
               <Header textAlign="center" as="h1" content="Haiku Generator"/>
               <Segment>
                 <br/>
@@ -47,7 +47,7 @@ class App extends Component {
                 <Button fluid primary content="Generate new haiku" onClick={this.generate}/>
               </Segment>
             </Grid.Column>
-            <Grid.Column width={6}>
+            <Grid.Column computer={5} tablet={4} mobile={3}>
               <br/><br/><br/>
               { formattedHaiku && <ShareButtons haiku={formattedHaiku} /> }
             </Grid.Column>     
